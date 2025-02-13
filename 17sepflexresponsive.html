@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>FLEX RESPONSIVE LAYOUT</title>
+<style>
+    .navbar{
+        background-color: lightgreen;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        font-size:20px
+    }
+    .data{
+        display: flex;
+    }
+    .side-left{
+        flex:30%;
+        background-color:rgb(133, 74, 74)
+    }
+    .side-right{
+        flex:70%;
+        background-color:rgb(174, 174, 75)
+        }
+    body{
+            margin:0%;
+            border:5px solid
+        }
+        @media screen and (max-width:500px){
+            .navbar,.class{
+                flex-direction:column
+          }
+        }
+</style>
+</head>
+<body>
+    <div class="navbar">
+<a href="#">HOME</a>
+<a href="#">ABOUT</a>
+<a href="#">EVENTS</a>
+<a href="#">EXAMS</a>
+<a href="#">CONTACTS</a> 
+
+    </div>
+<div class="data">
+    <div class="side-left">
+        <P>This is first part</P>
+        <p>This is second line</p>
+        <img src="#">
+    </div>
+<div class="side-right">
+    <p>This is second part</p>
+    <p>This is second part line</p>
+    <img src="#">
+    </div>
+    </div>
+    </body>
+</html>
